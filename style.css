@@ -72,3 +72,32 @@ header nav a {
   /* use % width images will now be fluid in relation to the size of their container */
   width: 33.333%;
 }
+
+.quotes {
+  overflow: hidden;
+}
+
+.quotes div {
+  float: left;
+  width: 46%;
+  text-align: center;
+  padding: 50px 20px 40px 20px;
+}
+
+.cream-background {
+  background-color: #F7F1EE;
+}
+
+.quotes img {
+  width: 75px;
+  border-radius: 100%;
+}
+
+.quotes blockquote {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.15;
+  max-width: 400px;
+  margin: 15px auto 5px auto;
+}
