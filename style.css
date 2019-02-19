@@ -224,4 +224,20 @@ footer p {
     margin: 0 auto 35px auto;
     display: block;
   }
+
+  .logos img:last-child {
+    /* here we remove the margin bottom from the last img */
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 820px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0px rgba(51, 51, 51, 0.4);
+  }
 }
