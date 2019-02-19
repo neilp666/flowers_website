@@ -34,14 +34,14 @@ header nav a {
 .hero {
   background-image: url('assets/hero.jpg');
   background-size: cover;
-  padding-top: 230px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 250px;
   /* here we position our background image on the x and y axis */
   background-position: right center;
 }
 
 .hero div {
-  max-width: 540px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -51,7 +51,7 @@ header nav a {
 
 .hero h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 44px;
+  font-size: 54px;
   line-height: 1;
   margin-bottom: 15px;
   font-weight: 700;
@@ -61,4 +61,14 @@ header nav a {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.flowers {
+  overflow: hidden;
+}
+
+.flowers img {
+  float: left;
+  /* use % width images will now be fluid in relation to the size of their container */
+  width: 33.333%;
 }
