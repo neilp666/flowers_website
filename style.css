@@ -20,7 +20,7 @@ header h1 {
 
 header nav {
   float: right;
-  margin-top: 30px;
+  margin-top: 9px;
 }
 
 header nav a {
@@ -79,7 +79,7 @@ header nav a {
 
 .quotes div {
   float: left;
-  width: 46%;
+  width: 50%;
   text-align: center;
   padding: 50px 20px 40px 20px;
 }
@@ -130,12 +130,11 @@ header nav a {
 
 footer {
   background-color: #47353A;
-  padding: 10px 15px;
+  padding: 12px 15px;
   overflow: hidden;
 }
 
 footer img {
-  margin-top: 12px;
   float: left;
 }
 
@@ -144,4 +143,85 @@ footer p {
   font-size: 14px;
   color: #CCC9CA;
   font-weight: 700;
+}
+
+
+/* breakpoint at 600px */
+
+@media (max-width: 600px) {
+
+  body {
+    font-size: 14px;
+  }
+  .hero h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+  }
+
+  .chair {
+    height: 320px;
+  }
+
+  .quotes div {
+    float: none;
+    width: auto;
+    padding: 30px, 30px, 40px, 30px;
+  }
+
+  .quotes blockquote {
+    font-size: 20px;
+  }
+
+  .quotes p {
+    display: none;
+  }
+
+  header nav {
+    line-height: 20px;
+  }
+
+}
+
+@media (max-width: 430px) {
+
+  header h1,
+  header nav {
+    float: none;
+ }
+
+ header nav a {
+   
+   margin-left: 0;
+   margin-right: 12px;
+ }
+
+ .flowers img {
+   float: none;
+   width: auto;
+ }
+
+ footer {
+  padding: 30px 20px
+ }
+
+}
+
+@media (max-width: 820px) {
+  .logos img {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 680px) {
+  .logos img {
+    margin: 0 auto 35px auto;
+    display: block;
+  }
 }
