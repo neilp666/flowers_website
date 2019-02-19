@@ -9,7 +9,7 @@ body, html {
 }
 
 header {
-  padding: 10px, 15px;
+  padding: 10px 15px;
   /* when we float elements inside the header , they are taken outside , header collapses */
   overflow: hidden;
 }
@@ -35,7 +35,7 @@ header nav a {
   background-image: url('assets/hero.jpg');
   background-size: cover;
   padding-top: 150px;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
   /* here we position our background image on the x and y axis */
   background-position: right center;
 }
@@ -100,4 +100,48 @@ header nav a {
   line-height: 1.15;
   max-width: 400px;
   margin: 15px auto 5px auto;
+}
+
+.chair {
+  /* here we override the background image and positions from
+  our hero class above */
+  background-image: url('assets/full-bleed.jpg');
+  background-position: center bottom;
+  padding: 0;
+  height: 500px;
+}
+
+.logos {
+  background-color: #EEAE9F;
+  padding: 20px 20px 35px 20px;
+  text-align: center;
+}
+
+.logos p {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.logos img {
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+footer {
+  background-color: #47353A;
+  padding: 10px 15px;
+  overflow: hidden;
+}
+
+footer img {
+  margin-top: 12px;
+  float: left;
+}
+
+footer p {
+  float: right;
+  font-size: 14px;
+  color: #CCC9CA;
+  font-weight: 700;
 }
